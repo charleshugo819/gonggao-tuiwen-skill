@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 运行产物（抓取/解析时产生的临时文件）
+attachments/
+*_dump.txt
+公告正文.txt
+html_plain.txt
+图片清单.txt
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# vendor/gzh-design 是内置排版引擎的快照，需要提交（不要忽略）
+# 但其中的缓存与备份不提交
+vendor/gzh-design/**/__pycache__/
+vendor/gzh-design/**/_bak_typo/
+vendor/gzh-design/**/_bak_recolor/
+vendor/gzh-design/archive/
