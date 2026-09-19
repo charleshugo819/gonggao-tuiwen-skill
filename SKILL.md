@@ -282,6 +282,20 @@ gonggao-tuiwen/
 | 摸鱼票据风 | `moyu-ticket` | 测评、工具对比 |
 | 橄榄手记 | `olive-journal` | 内刊手记、案例复盘 |
 
+### ⚖️ 许可与署名（AGPL-3.0，必须保留）
+
+`vendor/gzh-design/` 是第三方开源项目 **gzh-design-skill** 的快照，
+版权归 **甲木 (Jiamu) × 摸鱼小李 (Moyu Xiaoli)** 所有，采用 **AGPL-3.0** 许可，
+上游：<https://github.com/isjiamu/gzh-design-skill>。
+
+**本 skill 对该目录做过修改**（主题主色调整、删除标题内英文标签、统一排版参数与字体），修改日期 **2026-09-19**。
+
+- `vendor/gzh-design/LICENSE` 与各文件内的原作者版权声明 **一律不得删除或替换**
+- 该目录及其衍生部分**只能继续以 AGPL-3.0 授权**，不得改为 MIT
+- 本仓库整体对外分发时须按 **AGPL-3.0** 处理（根 `LICENSE` 的 MIT 仅覆盖自有部分）
+- **对外提供**（含以网络服务形式供外部使用）须履行 AGPL-3.0 源码提供义务；
+  公司内部同事之间使用一般不触发，具体以法务意见为准
+
 ### 同步上游 gzh-design 的更新
 
 内置版是**快照**，不会自动跟随上游。当 `~/.workbuddy/skills/gzh-design` 有更新
@@ -293,6 +307,10 @@ $dst = "C:\Users\Administrator\.workbuddy\skills\gonggao-tuiwen\vendor\gzh-desig
 Remove-Item $dst -Recurse -Force
 Copy-Item $src $dst -Recurse -Force
 ```
+
+⚠️ **同步会覆盖本 skill 做过的定制**（主题换色、删英文标签、排版参数与字体统一）。
+同步后须按 `{gzh}/scripts/_resync_recolor.py` 等脚本重新应用定制，
+并**确认 `vendor/gzh-design/LICENSE` 仍在**（上游若改动许可，以新版本为准）。
 
 注意：同步后**只同步 `references/`、`scripts/`、`SKILL.md`** 即可，
 `assets/`、`docs/`、`archive/` 是上游的开发资源，对排版无影响，可不带过去。

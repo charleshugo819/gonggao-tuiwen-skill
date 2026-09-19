@@ -2,6 +2,27 @@ MIT License
 
 Copyright (c) 2026 gonggao-tuiwen contributors
 
+================================================================================
+适用范围说明（IMPORTANT）
+================================================================================
+
+本 MIT 许可**仅覆盖本仓库作者原创的部分**，即：
+
+  - SKILL.md、README.md
+  - references/、examples/、scripts/ 下的自有内容
+  - 根目录其他未特别标注的文件
+
+**不覆盖** `vendor/gzh-design/` 目录。该目录是第三方开源项目
+gzh-design-skill（版权归 甲木 (Jiamu) × 摸鱼小李 (Moyu Xiaoli) 所有）
+的快照，采用 GNU Affero General Public License v3.0（AGPL-3.0）许可，
+上游地址：https://github.com/isjiamu/gzh-design-skill
+
+因此，**本仓库整体对外分发时应按 AGPL-3.0 处理**（AGPL-3.0 具有传染性，
+内嵌其代码的作品整体须以 AGPL-3.0 授权）。完整许可证原文见
+`vendor/gzh-design/LICENSE`，请勿删除。
+
+================================================================================
+
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights

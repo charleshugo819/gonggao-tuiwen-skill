@@ -23,5 +23,4 @@ desktop.ini
 # 但其中的缓存与备份不提交
 vendor/gzh-design/**/__pycache__/
 vendor/gzh-design/**/_bak_typo/
-vendor/gzh-design/**/_bak_recolor/
 vendor/gzh-design/archive/
